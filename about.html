@@ -25,10 +25,33 @@
       src="https://kit.fontawesome.com/56e3d0ce28.js"
       crossorigin="anonymous"
     ></script>
+    <meta name="description" content=" About Nandini ,Nandini is a front end developer based in chicago"/>
     <link rel="stylesheet" href="styles/portfolio.css" />
-    <title>about me</title>
+    <title>about Nandini</title>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/index.html" title="home page">
+          <img
+            src="images/shecodes.png"
+            class="logo d-none d-md-block"
+            alt="shecodes.logo"
+          />
+          <img
+            src="images/shecodes-small.png"
+            class="logo d-block d-md-none"
+            alt="shecodes.logo"
+          />
+        </a>
+        <ul>
+          <li><a href="/index.html" title="Home page">Home</a></li>
+          <li class="active"><a href="/" title="About page">About</a></li>
+          <li><a href="/work.html" title="Work page">Work</a></li>
+          <li><a href="/contact.html" title="Contact page">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container container">
       <div class="row">
         <div class="col-lg-6">
@@ -41,7 +64,7 @@
               everything is well explained, homework and deadlines are good for
               keep focus
             </p>
-            <a href="" class="btn btn-branding">See my Projects</a>
+            <a href="/work.html" class="btn btn-branding" title="My work">See my Projects</a>
           </div>
         </div>
         <div class="col-lg-6">
@@ -53,5 +76,58 @@
         </div>
       </div>
     </div>
+    <footer class="container">
+      <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+        <div>
+          <h3>Work Inquiry</h3>
+          <p class="text-muted">Let's Work Together</p>
+        </div>
+        <div>
+          <a
+            href="/contact.html"
+            class="btn btn-branding mt-3"
+            title="contact me"
+            >Contact me</a
+          >
+        </div>
+      </div>
+
+      <div class="d-flex justify-content-center mb-5">
+        <a
+          href="mailto:nandinithirumuru@gmail.com"
+          class="email-link"
+          title="email nandini"
+          >Nandinithirumuru@gmail.com</a
+        >
+      </div>
+      <div class="social-link d-flex justify-content-center mb-5">
+        <a
+          href="https://www.instagram.com/nandinithirumuru"
+          target="-blank"
+          title="Nandini instagram"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a
+          href="https://wwww.github.com/nandinithirumuru"
+          target="-blank"
+          title="Nandini github"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        <a
+          href="https://www.twitter.com/nandini"
+          target="-blank"
+          title="nandini twitter"
+          ><i class="fa-brands fa-twitter"></i
+        ></a>
+      </div>
+      <p class="text-center mt-5">
+        This project was coded by nandini
+        <a
+          href="https://github.com/NandiniThirumuru/Portfolio-project"
+          target="-blank"
+          >Open-Sourced</a
+        >
+      </p>
+    </footer>
   </body>
 </html>
